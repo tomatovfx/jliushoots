@@ -20,7 +20,7 @@ body {
     border-bottom: 1px solid #333;
 }
 
-/* Hero Section with Animated Background */
+/* Hero Section with Background Animation */
 #hero {
     position: relative;
     text-align: center;
@@ -72,18 +72,25 @@ h2 {
 }
 
 .portfolio-item {
-    background: linear-gradient(135deg, #1f1f1f, #333);
+    background: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item h3 {
+    margin: 0;
+    color: #ffb703;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .portfolio-item a {
-    color: #ffb703;
     text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+    color: inherit;
 }
 
 .portfolio-item:hover {
@@ -137,4 +144,27 @@ a {
 
 a:hover {
     color: #ff8800;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #hero {
+        padding: 100px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-text p {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .portfolio-item h3 {
+        font-size: 1.1em;
+    }
 }
