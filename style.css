@@ -11,6 +11,7 @@ body {
     color: #f5f5f5;
     line-height: 1.6;
     transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 20px;
 }
 
 /* Section Styling */
@@ -19,6 +20,10 @@ body {
     margin: 0 auto;
     padding: 60px 20px;
     border-bottom: 1px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
 }
 
 /* Hero Section with Background Animation */
@@ -30,6 +35,9 @@ body {
     overflow: hidden;
     background: linear-gradient(135deg, #0d0d0d 0%, #333 100%);
     transition: background 0.3s ease;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
 }
 
 #hero .overlay {
@@ -40,6 +48,7 @@ body {
     height: 100%;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(51, 51, 51, 0.9));
     z-index: 1;
+    border-radius: 10px;
 }
 
 .hero-text {
@@ -51,11 +60,13 @@ body {
     font-size: 3.5em;
     margin-bottom: 0.3em;
     transition: font-size 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-text p {
     font-size: 1.5em;
     transition: font-size 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Section Titles */
@@ -67,6 +78,7 @@ h2 {
     display: inline-block;
     margin-bottom: 20px;
     transition: font-size 0.3s ease, color 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Portfolio Grid */
@@ -77,13 +89,15 @@ h2 {
 }
 
 .portfolio-item {
-    background: #1e1e1e;
+    background: rgba(30, 30, 30, 0.8);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 .portfolio-item h3 {
@@ -102,23 +116,25 @@ h2 {
 .portfolio-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(255, 183, 3, 0.2);
-    background: #2a2a2a;
+    background: rgba(42, 42, 42, 0.8);
 }
 
 /* Experience Icons */
 .experience-item {
     display: flex;
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: rgba(30, 30, 30, 0.8);
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 10px;
     transition: box-shadow 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 .experience-item:hover {
     box-shadow: 0 4px 15px rgba(255, 183, 3, 0.2);
-    background: #2a2a2a;
+    background: rgba(42, 42, 42, 0.8);
 }
 
 .experience-item span {
@@ -135,14 +151,16 @@ ul {
 li {
     margin: 10px 0;
     padding: 10px;
-    background: #1f1f1f;
-    border-radius: 8px;
+    background: rgba(31, 31, 31, 0.8);
+    border-radius: 10px;
     transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 li:hover {
     transform: translateX(10px);
-    background: #2a2a2a;
+    background: rgba(42, 42, 42, 0.8);
 }
 
 a {
