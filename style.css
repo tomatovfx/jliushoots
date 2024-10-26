@@ -1,4 +1,3 @@
-
 /* Reset & Font Styling */
 * {
     margin: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #121212;
     color: #f5f5f5;
     line-height: 1.6;
@@ -17,7 +16,7 @@ body {
 .section {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 20px;
     border-bottom: 1px solid #333;
 }
 
@@ -25,7 +24,7 @@ body {
 #hero {
     position: relative;
     text-align: center;
-    padding: 150px 20px;
+    padding: 180px 20px;
     color: #fff;
     overflow: hidden;
     background: linear-gradient(135deg, #0d0d0d 0%, #333 100%);
@@ -47,17 +46,17 @@ body {
 }
 
 .hero-text h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 0.3em;
 }
 
 .hero-text p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 /* Section Titles */
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #ffb703;
     text-transform: uppercase;
     border-bottom: 2px solid #ffb703;
@@ -68,7 +67,7 @@ h2 {
 /* Portfolio Grid */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -78,6 +77,13 @@ h2 {
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item a {
+    color: #ffb703;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 .portfolio-item:hover {
