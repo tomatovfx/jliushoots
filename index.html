@@ -5,71 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaden Liu | Creative Videographer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Importing modern Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Jaden Liu</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Hero Section with Background Animation -->
-    <section id="hero">
-        <div class="overlay"></div>
-        <div class="hero-text">
-            <h1>Jaden Liu</h1>
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Crafting Visual Stories</h1>
             <p>Videographer | Editor | Post-Producer</p>
-            <p>10 Million+ Views | 60+ Paid Commissions</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>With six years of experience in videography, cinematography, and post-production, I have a proven track record of delivering compelling visual content that resonates with audiences. My work has garnered over 10 million views across various platforms. Proficient in Sony VEGAS Pro, Adobe After Effects, and other industry-standard tools, I am passionate about bringing stories to life through the lens.</p>
         </div>
     </section>
 
-    <!-- About Section with Dividers -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>With six years of videography, cinematography, and post-production experience, my work has amassed over 10 million views across platforms. Skilled in Sony VEGAS Pro, Adobe After Effects, and other industry-standard tools.</p>
-    </section>
-
-    <!-- Portfolio Section with Enhanced Grid -->
-    <section id="portfolio" class="section">
-        <h2>Portfolio</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <a href="https://www.youtube.com/watch?v=iq75ko0BrBM" target="_blank">
-                    <h3>Minecraft Survival Series - NorCal Sumo</h3>
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a href="https://www.youtube.com/watch?v=BliIVHI-g6s" target="_blank">
-                    <h3>Fortnite Highlights - Devour Nawtaw</h3>
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a href="https://www.youtube.com/watch?v=R5eiV_MIjiQ" target="_blank">
-                    <h3>Air Force Baseball Cinematography - USAFA</h3>
-                </a>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item -->
+                <div class="portfolio-item">
+                    <img src="path_to_image1.jpg" alt="Minecraft Survival Series">
+                    <div class="portfolio-overlay">
+                        <h3>Minecraft Survival Series - NorCal Sumo</h3>
+                        <a href="https://www.youtube.com/watch?v=iq75ko0BrBM" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Repeat for other portfolio items -->
+                <div class="portfolio-item">
+                    <img src="path_to_image2.jpg" alt="Fortnite Highlights">
+                    <div class="portfolio-overlay">
+                        <h3>Fortnite Highlights - Devour Nawtaw</h3>
+                        <a href="https://www.youtube.com/watch?v=BliIVHI-g6s" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="path_to_image3.jpg" alt="Air Force Baseball Cinematography">
+                    <div class="portfolio-overlay">
+                        <h3>Air Force Baseball Cinematography - USAFA</h3>
+                        <a href="https://www.youtube.com/watch?v=R5eiV_MIjiQ" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section with Icons -->
-    <section id="experience" class="section">
-        <h2>Experience</h2>
-        <div class="experience-item"><span>🎥</span><strong>Devious Esports LLC:&nbsp;</strong>Lead Editor (July 2020 - June 2021)</div>
-        <div class="experience-item"><span>🎞️</span><strong>Overtime Gaming:&nbsp;</strong>Intern (April 2021)</div>
-        <div class="experience-item"><span>📽️</span><strong>United States Air Force Academy:&nbsp;</strong>Videographer (August 2022 - Present)</div>
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">July 2020 - June 2021</span>
+                    <h3>Lead Editor</h3>
+                    <h4>Devious Esports LLC</h4>
+                    <p>Managed a team of editors to produce high-quality content for esports events and promotional materials.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">April 2021</span>
+                    <h3>Intern</h3>
+                    <h4>Overtime Gaming</h4>
+                    <p>Assisted in video production and editing for gaming content, contributing to audience engagement strategies.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">August 2022 - Present</span>
+                    <h3>Videographer</h3>
+                    <h4>United States Air Force Academy</h4>
+                    <p>Responsible for capturing and editing video content for official events and promotional campaigns.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Awards Section -->
-    <section id="awards" class="section">
-        <h2>Awards & Recognition</h2>
-        <ul>
-            <li>1st Place - Astral Editing Competition ("Goodbyes")</li>
-            <li>2nd Place - Altro Editing Competition ("ROCKETEER")</li>
-            <li>3rd Place - FreaK Editing Competition ("ROCKETEER")</li>
-        </ul>
+    <section id="awards">
+        <div class="container">
+            <h2>Awards & Recognition</h2>
+            <ul class="awards-list">
+                <li>
+                    <h3>1st Place - Astral Editing Competition ("Goodbyes")</h3>
+                </li>
+                <li>
+                    <h3>2nd Place - Altro Editing Competition ("ROCKETEER")</h3>
+                </li>
+                <li>
+                    <h3>3rd Place - FreaK Editing Competition ("ROCKETEER")</h3>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:jadenliu@projectcodered.com">jadenliu@projectcodered.com</a></p>
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>If you have a project in mind or just want to say hello, feel free to reach out.</p>
+            <a href="mailto:jadenliu@projectcodered.com" class="btn">Email Me</a>
+        </div>
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Jaden Liu. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <!-- Add other social icons -->
+                <!-- ... -->
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
