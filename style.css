@@ -1,3 +1,4 @@
+
 /* Reset & Font Styling */
 * {
     margin: 0;
@@ -10,6 +11,7 @@ body {
     background-color: #121212;
     color: #f5f5f5;
     line-height: 1.6;
+    margin: 0;
 }
 
 /* Section Styling */
@@ -43,6 +45,7 @@ body {
 .hero-text {
     position: relative;
     z-index: 2;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .hero-text h1 {
@@ -169,33 +172,11 @@ a:hover {
     }
 }
 
-/* Additional modern enhancements */
-
-/* Smooth button animations */
-button {
-    background: linear-gradient(45deg, #ffb703, #ff8800);
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-button:hover {
-    transform: scale(1.05);
-    background: linear-gradient(45deg, #ff8800, #ffb703);
-}
-
-/* Hero section animation */
-.hero-text {
-    animation: fadeIn 1.5s ease-in-out;
-}
-
+/* Smooth Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
@@ -203,9 +184,9 @@ button:hover {
     }
 }
 
-/* Footer styling */
+/* Footer Styling */
 footer {
-    background: #1e1e1e;
+    background-color: #1e1e1e;
     color: #fff;
     text-align: center;
     padding: 20px;
